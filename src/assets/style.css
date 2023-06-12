@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "JetBrains Mono", monospace;
+}
+body {
+  padding: 0 !important;
+  overflow: hidden;
+  margin: 0 !important;
+  background-color: #18171F;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #18171f;
+}
+.title {
+  font-size: 24px;
+  line-height: 32px;
+  color: #817d92;
+  top: 60px;
+  left: 630px;
+}
+.header {
+  background-color: #24232c;
+  width: 520px;
+  height: 80px;
+  left: 500px;
+  padding: 1rem;
+  top: 120px;
+}
+.main-container {
+  width: 520px;
+  height: 470px;
+  top: 220px;
+  left: 500px;
+  background-color: #24232c;
+}
+.header input {
+  background-color: transparent;
+  outline: none;
+  font-size: 21px;
+  line-height: 42px;
+  color: #e6e5ea;
+}
+.header i {
+  font-size: 21px;
+  color: #a4ffaf;
+}
+.header i:hover {
+  color: #ffffff;
+}
+
+.length {
+  padding: 0.7rem 1rem;
+}
+.length p {
+  font-size: 18px;
+  color: #e6e5ea;
+  line-height: 23.76px;
+}
+.length h4 {
+  font-size: 24px;
+  color: #a4ffaf;
+  line-height: 42.24px;
+}
+.requirements {
+  height: 45%;
+  padding: 0 1rem;
+}
+li {
+  margin: 1rem 0;
+}
+li input {
+  appearance: none;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #e6e5ea;
+}
+li input:hover {
+  border: 1px solid #6cc478;
+}
+
+li input:checked::before {
+  content: "\2713";
+  display: block;
+  width: 20px;
+  border-radius: 2px;
+  height: 20px;
+  text-align: center;
+  font-weight: bold;
+  border: noen;
+  font-size: 16px;
+  background-color: #a4ffaf;
+  color: black;
+}
+li p {
+  margin: 0 1rem;
+  font-size: 18px;
+  line-height: 23.76px;
+  color: #e6e5ea;
+}
+.password-strength {
+  width: 450px;
+  height: 72px;
+  padding: 1.5rem;
+  background-color: #18171f;
+}
+.password-strength h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #817d92;
+  line-height: 23.76px;
+}
+.strength-level {
+  height: 50px;
+  width: 50%;
+}
+.strength-level span {
+  width: 10px;
+  height: 28px;
+  border: 1px solid #e6e5ea;
+}
+.strength-level h3 {
+  font-size: 22px;
+  line-height: 32px;
+  color: #e6e5ea;
+}
+.btn-generate {
+    width: 450px;
+    height: 65px;
+    background-color: #a4ffaf;
+    font-size: 18px;
+    color: #24232C;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+.btn-generate:hover {
+    background-color: transparent;
+    border: 1px solid #a4ffaf;
+    color: #a4ffaf;
+    transition: 0.4s;
+}
+.copied-span {
+    color: #6cc478;
+}

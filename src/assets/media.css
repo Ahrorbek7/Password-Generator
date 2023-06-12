@@ -1,0 +1,83 @@
+@media(min-width: 992px) and (max-width:1200px) {
+    .header, .main-container {
+        left: 300px;
+    }
+    .title {
+        left: 430px;
+    }
+}
+@media(min-width: 768px) and (max-width:991px) {
+    .header, .main-container {
+        left: 250px;
+    }
+    .title {
+        left: 380px;
+    }
+}
+@media(min-width: 577px) and (max-width:766px) {
+    .header, .main-container {
+        left: 50px;
+    }
+    .main-container {
+        top: 180px;
+    }
+    .title {
+        left: 170px;
+        top: 20px;
+    }
+    .header {
+        top: 80px;
+    }
+}
+@media screen and (max-width:577px) {
+    .header, .main-container {
+        left: 4%;
+        width: 343px;
+    }
+    .main-container {
+        top: 180px;
+        height: 430px;
+    }
+    .title {
+        left: 20%;
+        top: 20px;
+        font-size: 22px;
+    }
+    .header input {
+        font-size: 20px;
+    }
+    .header {
+        top: 80px;
+        height: 64px;
+    }
+    .btn-generate {
+        width: 90%;
+        height: 50px;
+        font-size: 17px;
+    }
+    .password-strength {
+        width: 90%;
+        height: 64px;
+    }
+    .password-strength h4 {
+        font-size: 16px;
+    }
+    .password-strength h3 {
+        font-size: 18px;
+    }
+    .strength-level {
+        width: 60%;
+    }
+    .copy-section {
+        width: auto !important;
+        flex-wrap: nowrap;
+        display: flex;
+        margin-right: 1rem;
+    }
+    .copy-section span {
+        font-size: 14px;
+    }
+    .progress {
+        width: 90%;
+    }
+}
