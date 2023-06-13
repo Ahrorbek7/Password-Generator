@@ -1,10 +1,7 @@
 <template>
   <div class="container">
-    <!-- Header section -->
     <h1 class="title absolute">Password Generator</h1>
     <Output :value="passwordInput" />
-
-    <!-- Main section -->
     <div class="main-container absolute">
       <div class="password-length">
         <div class="length flex justify-between">
@@ -46,9 +43,7 @@ export default {
   },
   data() {
     return {
-      // Header section
       passwordInput: '',
-      // Main section
       passwordLength: 8,
       includeLowercase: true,
       includeUppercase: false,
